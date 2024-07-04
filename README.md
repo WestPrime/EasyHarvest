@@ -1,6 +1,6 @@
 # EasyHarvest
 
-![img](https://i.imgur.com/COqWzhK.gif)
+<img src="https://i.imgur.com/COqWzhK.gif" />
 
 ## Description
 A Bukkit/Spigot plugin for Minecraft 1.21+
