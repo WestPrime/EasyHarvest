@@ -1,0 +1,7 @@
+name: EasyHarvestPlugin
+version: '${version}'
+main: ru.westprime.easyharvest.EasyHarvestPlugin
+api-version: '1.21'
+authors: [West_Prime]
+description: Right-click crops to harvest!
+website: https://vk.com/westprime
