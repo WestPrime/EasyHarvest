@@ -66,7 +66,9 @@ public class HarvestEventListener implements Listener {
         event.getPlayer().swingMainHand();
         event.getPlayer().breakBlock(clickedBlock);
 
-        if (plugin.getConfig().getBoolean("damageTool") && event.getItem() instanceof Damageable) {
+        if (plugin.getConfig().getBoolean("damageTool") &&
+                plugin.getConfig().getBoolean("requireTool") &&
+                event.getItem() instanceof Damageable) {
             ItemMeta meta = event.getItem().getItemMeta();
             if (meta != null) {
                 ((Damageable) meta).setDamage(((Damageable) meta).getDamage() + 1);
