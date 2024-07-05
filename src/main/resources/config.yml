@@ -1,0 +1,30 @@
+# References:
+# - https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+
+crops:
+  # List of crops (String)
+  - WHEAT
+  - CARROTS
+  - POTATOES
+  - BEETROOTS
+  - COCOA
+  - NETHER_WART
+
+tools:
+  # List of harvest tools (String)
+  - WOODEN_HOE
+  - STONE_HOE
+  - GOLDEN_HOE
+  - IRON_HOE
+  - DIAMOND_HOE
+  - NETHERITE_HOE
+
+# Features
+# Boolean
+requireTool: true
+damageTool: false
+randomAge: true
+giveXP: false
+# Integer
+minXP: 1
+maxXP: 10
